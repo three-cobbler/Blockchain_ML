@@ -9,7 +9,7 @@ block = {
         },
         "transactionResults": 
             {
-                "uuid": "hashed uuid
+                "uuid": 'hashed uuid'
             }
         
     'transactions': 
@@ -17,10 +17,10 @@ block = {
             'committer': "hashed committer name"
             'git diff': {
             'comments': {
-                        'abc' add feature,
-                        'bcd' rename some classes,
-                        'efg' refactor some code,
-                        'hij' add some copy to body
+                        'abc add feature',
+                        'bcd rename some classes',
+                        'efg refactor some code',
+                        'hij add some copy to body'
                         }#comments
             'code': {
                         @@ -34,6 +34,8 @@
