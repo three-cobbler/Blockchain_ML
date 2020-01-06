@@ -2,7 +2,7 @@
 
 block = {
     "nonHashData": {
-        "index": 1
+        "index": 1 #how many transactions in this block
         "localCommitTimestamp": {
             "nanos": 975295157,
             "seconds": 1466057539 #Unix style time format
@@ -15,12 +15,12 @@ block = {
     'transactions': 
         {
             'committer': "hashed committer name"
-            'git diff": {
+            'git diff': {
             'comments': {
-                        "957fbc92b123030c389bf8b4b874522bdf2db72c add feature
-                        ce489262a1ee34340440e55a0b99ea6918e19e7a rename some classes
-                        6b539f280d8b0ec4874671bae9c6bed80b788006 refactor some code
-                        646e7863348a427e1ed9163a9a96fa759112f102 add some copy to body"
+                        'abc' add feature,
+                        'bcd' rename some classes,
+                        'efg' refactor some code,
+                        'hij' add some copy to body
                         }#comments
             'code': {
                         @@ -34,6 +34,8 @@
