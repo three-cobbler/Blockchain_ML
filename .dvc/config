@@ -1,2 +1,4 @@
 ['remote "gcpremote"']
 url = gs://dataset-versioning-1
+[core]
+remote = gcpremote
