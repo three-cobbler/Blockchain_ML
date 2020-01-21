@@ -1,2 +1,2 @@
 ['remote "gcpremote"']
-url = gs://temp-storage-101
+url = gs://dataset-versioning-1
