@@ -24,7 +24,7 @@ class NeruipsScheduleSpider(scrapy.Spider):
         subTitle = response.css('.subtitle::text').extract()
 
         paper_info = {
-            'abstract': abstracts[0],
+            'abstract': abstracts,
             'subTitle': subTitle,
         }
         #yield or give the scraped paper info to scrapy
