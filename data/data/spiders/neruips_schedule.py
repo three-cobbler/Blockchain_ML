@@ -52,24 +52,3 @@ class NeruipsScheduleSpider(scrapy.Spider):
                 yield scrapy.Request(
                     response.urljoin(next_page),
                     callback=self.parse)
-
-    # def parsePaperPage(self, response):
-    #
-    #     print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
-    #     print("procesing:"+response.url)
-    #     abstracts = response.css('.abstract::text').extract()
-        #
-        # #Give the extracted content row wise
-        # for item in zip(types, authors, titles, times, parent_sessions, ids):
-        #     #create a dictionary to store the scraped info
-        #     scraped_info = {
-        #         'type': item[0],
-        #         'author': item[1],
-        #         'title': item[2],
-        #         'time': item[3],
-        #         'parent_session': item[4],
-        #         'id': re.search(r'\((.*?)\)',item[5]).group(1),
-        #     }
-        #
-        #     #yield or give the scraped info to scrapy
-        #     yield scraped_info
